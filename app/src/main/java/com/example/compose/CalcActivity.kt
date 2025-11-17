@@ -62,7 +62,6 @@ class CalcActivity : ComponentActivity() {
 
                 Text(ultimotexto, Modifier.padding(12.dp).fillMaxSize())
 
-                val context = LocalContext.current
                 Button(
                     onClick = {
                         if (name1 == ""){
